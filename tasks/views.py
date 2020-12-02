@@ -28,4 +28,4 @@ def post_task(request):
 @api_view(["DELETE"])
 def delete_tasks(request):
     Task.objects.all().delete()
-    return Response({"Deletet All tasks"})
+    return Response({"Deletes All tasks"})
