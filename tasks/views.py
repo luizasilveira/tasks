@@ -14,7 +14,7 @@ def get_tasks(request):
 
 
 @api_view(["POST"])
-def post_Task(request):
+def post_task(request):
     print(request)
     infoJson = JSONParser().parse(request)
     print(infoJson)
